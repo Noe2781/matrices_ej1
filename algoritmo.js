@@ -1,8 +1,8 @@
 const MIN = 1;
-const MAX = 151;
+const MAX = 200;
 
-const MAX_COL = 15;
-const MAX_FILA = 11;
+const MAX_COL = 20;
+const MAX_FILA = 10;
 
 const matriz = [];
 
