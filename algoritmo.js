@@ -1,8 +1,8 @@
 const MIN = 1;
-const MAX = 50;
+const MAX = 151;
 
-const MAX_COL = 5;
-const MAX_FILA = 5;
+const MAX_COL = 15;
+const MAX_FILA = 11;
 
 const matriz = [];
 
@@ -13,6 +13,10 @@ for (let fila = 0; fila <MAX_FILA; fila ++) {
    for (let col  = 0;col < MAX_COL; col++) {
     matriz[fila][col] = num;
     num++;
+    if (num>MAX) {
+        fila = MAX_FILA;
+        col = MAX_COL;
+    }
    
     
    }
