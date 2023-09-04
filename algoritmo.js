@@ -2,7 +2,7 @@ const MIN = 1;
 const MAX = 200;
 
 const MAX_COL = 20;
-const MAX_FILA = 10;
+const MAX_FILA = 10 ;
 
 const matriz = [];
 
